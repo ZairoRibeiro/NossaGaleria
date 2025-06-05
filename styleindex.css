@@ -1,21 +1,31 @@
-    body {
-      background-color: #e45a5a;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      font-family: 'cutive', monospace;
-      text-align: center;
-    }
 
-    .container {
-      max-width: 500px;
-      padding: 30px;
-      background-color: white;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    }
+body {
+  background-image: url('images/fundo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: 'BebasNeue', sans-serif;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+  
+.container {
+  max-width: 500px;
+  width: 90%; /* Faz o container ocupar até 90% da tela no celular */
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
 
     h1 {
       color: #d6336c;
@@ -42,3 +52,9 @@
     button:hover {
       background-color: #b02555;
     }
+
+    @font-face {
+      font-family: 'BebasNeue';
+      src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+    }
+    
