@@ -19,7 +19,7 @@ body {
   
 .container {
   max-width: 500px;
-  width: 90%; /* Faz o container ocupar até 90% da tela no celular */
+  width: 90%;
   padding: 30px;
   background-color: white;
   border-radius: 15px;
@@ -28,7 +28,7 @@ body {
 }
 
     h1 {
-      color: #d6336c;
+      color: #9b190d;
       margin-bottom: 20px;
     }
 
@@ -39,18 +39,18 @@ body {
     }
 
     button {
-      background-color: #d6336c;
+      background-color: #c62613;
       color: white;
       border: none;
       padding: 15px 30px;
-      border-radius: 30px;
+      border-radius: 9px;
       font-size: 1em;
       cursor: pointer;
       transition: background-color 0.3s;
     }
 
     button:hover {
-      background-color: #b02555;
+      background-color: #e24343;
     }
 
     @font-face {
