@@ -43,11 +43,6 @@ h1 {
     src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'Edu';
-    src: url('fonts/EduNSWACTHandPre-VariableFont_wght.ttf') format('truetype');
-}
-
 .descricao {
     background-color: white;
     padding: 10px 20px;
@@ -56,5 +51,5 @@ h1 {
     color: #333;
     font-size: 1.1em;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    font-family: 'Edu', sans-serif;
+    font-family: 'Edu NSW ACT Hand Pre', cursive;
 }
