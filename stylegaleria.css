@@ -1,0 +1,36 @@
+body {
+    background-image: url('images/findojornal.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'BebasNeue', sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+    h1 {
+      text-align: center;
+      color: #9b190d;
+      margin-bottom: 20px;
+      font-family: 'BebasNeue', sans-serif;
+    }
+
+    .galeria {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .galeria img {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    @font-face {
+        font-family: 'BebasNeue';
+        src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+      }
