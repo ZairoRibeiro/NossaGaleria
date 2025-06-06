@@ -20,26 +20,27 @@ body {
   max-width: 500px;
   width: 70%;
   padding: 10px;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+  box-shadow: 0px 8px 16px 4px rgba(5, 5, 5, 5);
   text-align: center;
 }
 
     h1 {
-      color: #9b190d;
+      color: #a81212;
       margin-bottom: 20px;
     }
 
     p {
-      font-size: 1.2em;
-      color: #555;
+      font-size: 1.5em;
+      color: #685454;
       margin-bottom: 30px;
+      font-family: 'Alumni Sans', sans-serif;
     }
 
     button {
-      background-color: #c62613;
-      color: white;
+      background-color: #af1717;
+      color: rgb(255, 255, 255);
       border: none;
       padding: 15px 30px;
       border-radius: 9px;
