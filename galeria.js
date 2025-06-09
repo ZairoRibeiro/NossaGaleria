@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
   let dias = hoje.getDate() - inicio.getDate();
 
   if (dias < 0) {
-    // Volta um mês
     meses--;
     const ultimoDiaDoMesAnterior = new Date(hoje.getFullYear(), hoje.getMonth(), 0).getDate();
     dias += ultimoDiaDoMesAnterior;
@@ -20,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
     meses += 12;
   }
 
-  // Agora transformamos o total de dias restantes em semanas e dias
   const totalDias = dias;
   const semanas = Math.floor(totalDias / 7);
   const diasRestantes = totalDias % 7;

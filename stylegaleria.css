@@ -1,4 +1,3 @@
-/* Layout principal */
 body {
     background-image: url('images/findojornal.png');
     background-size: cover;
@@ -60,8 +59,6 @@ h1 {
     line-height: 1.6;
     max-width: 700px;
     width: 90%;
-
-    /* Borda animada */
     background-image:
       linear-gradient(white, white),
       linear-gradient(120deg, #ff6b81, #ffb6c1, #ff6b81);
@@ -70,7 +67,6 @@ h1 {
     animation: bordaAnimada 4s linear infinite;
 }
 
-/* Ajuste no keyframes para um leve movimento */
 @keyframes bordaAnimada {
   0% {
     background-image:
@@ -84,7 +80,6 @@ h1 {
   }
 }
 
-/* Coração flutuante */
 .descricao::after {
     content: "❤️";
     position: absolute;
@@ -131,10 +126,6 @@ h1 {
     }
 }
 
-
-/* ======= CONTADOR ======= */
-
-/* Centraliza horizontalmente e dá uma margem superior */
 .contador-container {
     background: #ffffff;
     border: 2px solid #ec0606;
@@ -143,7 +134,7 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 250px;
-    margin: 20px auto;     /* Centraliza horizontal e dá espaçamento acima/abaixo */
+    margin: 20px auto;
 }
 
 .titulo {
